@@ -10,6 +10,6 @@ app.use("", apiRoutes);
 
 const port = 3000;
 
-app.listen(port, "192.168.13.48", () => {
+app.listen(port, () => {
   console.log("server is running on port" + " " + port);
 });
